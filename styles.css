@@ -1,0 +1,89 @@
+body{
+  background-image: url("./images/bg-pattern-top.svg"),url("./images/bg-pattern-bottom.svg");
+  background-position: -260px -480px, 720px 350px;
+  background-repeat: no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+
+.profile-card{
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 180px auto 50px;
+}
+
+.greyscale{
+  color: hsl(227, 10%, 46%);
+}
+
+.bgPattern{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile-pic{
+  position: absolute;
+  top: 92px;
+  left: 118px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 5px;
+}
+
+.name{
+  font-weight: 800;
+}
+
+.middle-container{
+  height:140px;
+}
+
+.middle-container p{
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.division{
+  margin: 8px 0;
+  border-style: none;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-color: hsl(0 ,4% ,83%);;
+}
+
+.bottom-container{
+  display: flex;
+  flex-direction: row;
+  height:75px;
+
+}
+
+.bottom-container div{
+  flex: 2;
+  padding: 20px;
+}
+
+.data{
+  font-weight: 700;
+}
+
+.bottom-container p{
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px){
+  body{
+    background-position: -795px -480px, 150px 300px;
+  }
+}
